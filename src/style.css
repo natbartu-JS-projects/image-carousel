@@ -26,8 +26,10 @@ body {
   transition: transform 0.5s ease-in-out;
 }
 
-.imgs {
+img {
   object-fit: cover;
+  width: 500px;
+  height: 500px;
 }
 
 .buttons-container {
@@ -46,7 +48,7 @@ body {
 }
 
 .btn:hover {
-  color: rgba(149, 120, 213, 0.9);
+  color: black;
   font-weight: bolder;
 }
 
