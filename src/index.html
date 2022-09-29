@@ -7,10 +7,31 @@
     <!-- Css -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Starter</title>
+    <title>Image Carousel</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="carousel">
+      <div class="image-container" id="imgs">
+        <img
+          src="https://picsum.photos/500/500?grayscale"
+          alt="random-images"
+        />
+        <img
+          src="https://picsum.photos/500/500?grayscale"
+          alt="random-images"
+        />
+        <img src="https://picsum.photos/500/500?blur" alt="random-images" />
+        <img
+          src="https://picsum.photos/500/500?grayscale"
+          alt="random-images"
+        />
+        <img src="https://picsum.photos/500/500?blur" alt="random-images" />
+      </div>
+    </div>
+    <div class="buttons-container">
+      <button id="left">Preview</button>
+      <button id="right">Next</button>
+    </div>
 
     <script src="script.js"></script>
   </body>
