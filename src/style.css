@@ -22,6 +22,8 @@ body {
 }
 .image-container {
   display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
 }
 
 .imgs {
