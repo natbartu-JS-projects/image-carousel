@@ -29,3 +29,8 @@ body {
 .imgs {
   object-fit: cover;
 }
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
