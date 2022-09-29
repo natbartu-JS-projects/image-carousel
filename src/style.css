@@ -34,3 +34,22 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.btn {
+  background-color: bisque;
+  color: gray;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  width: 49.5%;
+  font-family: inherit;
+}
+
+.btn:hover {
+  color: rgba(149, 120, 213, 0.9);
+  font-weight: bolder;
+}
+
+.btn:focus {
+  outline: none;
+}
